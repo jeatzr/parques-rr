@@ -1,0 +1,11 @@
+###
+get http://www.ies-azarquiel.es/paco/apiparques/comunidades
+
+###
+get http://www.ies-azarquiel.es/paco/apiparques/parques
+
+### /comunidad/{idcomunidad}/parques	
+get http://www.ies-azarquiel.es/paco/apiparques/comunidad/4/parques
+
+### /parque/{idparque}/imagenes
+get http://www.ies-azarquiel.es/paco/apiparques/parque/8/imagenes
